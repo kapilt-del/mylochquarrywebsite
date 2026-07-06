@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> <head> <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lochquarry outdoor centre</title>
+    </head>
+    <body>
+      <h1>Lochquarry outdoor centre</h1>
+      <img src= "Banner_new.jpg" alt= "banner" height= "300" width= "800">
+
+      <h2>Welcome to our contact page</h2>
+      <div id="particles-js"></div>
+      <a href="index.html">Homepage</a>
+          <a href="rope.html">Rope activities</a>
+          <a href="water.html">Water activities</a>
+          <a href="land.html">Land activities</a>
+          <a href="contact.html">Contact page</a> 
+          <span id="typedText">Meet</span> 
+     <link rel="stylesheet" href="styles.css">
+
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+      <h1>Centre information</h1>
+  <p> Lochquarry  Centre is an outdoor activity centre. It provides land, water and rope-based activities in the stunning Argyll Hills of Scotland.Each activity is run under the instruction of one of our highly trained staff and all safety equipment is provided.</p>.
+ <p>Let’s meet some of the Lochquarry staff:</p>  
+ <h2>Name: Claire Jac</h2>
+<h3>Position: Centre Manager</h3>
+<p>Responsible for: The overall running of the centre and all of its activities.</p>
+<h3>Favourite Activity: Pole climb</h3>
+
+<img src= "lochquarry_photographs/staff/claire_jack.jpeg" alt= "Picture of Claire Jack." width="500" height="300"> 
+<img src= "lochquarry_photographs/activities/rope/pole_climb_1.jpg" alt="Enjoy rope climbing."
+width="500" height="300">
+<h2>Name: Robbie Elliot</h2>
+<h3>Position: Senior Instructor (Land)</h3>
+<p>Responsible for: Overseeing all of the land based activities.</p>
+<h3>Favourite Activity: Hillwalking in the beautiful Scottish highlands</h3>
+<img src="lochquarry_photographs/staff/robbie_elliot.jpeg" alt="Picture of Robbie Elliot ." width="500" height="300">
+ <img src="lochquarry_photographs/activities/land/hillwalking_2.jpg" alt= "Beautiful nature." width="500" height="300">
+<a href="https://www.balmoralcastle.com/"> Click here to know more about Scotland's nature</a>
+<h2>
+ Name: Marion Hunter</h2>
+<h3>Position: Centre Administrator</h3>
+<p>Responsible for: Making bookings and arranging activity slots for groups</p>
+<h3>Favourite Activity: Making sure everyone has a great time when the visit Lochquarry</h3><img src= "lochquarry_photographs/staff/marion_hunter.jpg" alt= "Picture of Marion Hunter." width="500" height="300">
+ <img src="lochquarry_photographs/activities/land/orienteering_1.jpg" alt= "Beautiful nature."  width= "500" height="300">
+ <p>Our activities are very popular with youth groups including Scouts and Guides.</p><h2>Customer comments</h2>
+<p>I was really scared about the abseiling but the instructor Mike was really encouraging and helped me do it, thanks Mike’ - Sophie, aged 10</p>
+ <h3>To book your next adventure at Lochquarry, please <button onclick="sayHello()">Click Me</button></h3>
+<script>
+   function sayHello() {
+    alert("Thanks for exploring our website. Please call 014752298311 to book our activities!");
+  }
+ 
+const typed = new Typed("#typedText", {
+  strings: [ "Meet","our", "staff", ],
+  typeSpeed: 70,
+  backSpeed: 40,
+  backDelay: 1200,
+  loop: true
+});
+
+particlesJS("particles-js", {
+   "particles": {
+ "number": { "value": 200 },
+ "color": { "value": "#ffffff" },
+ "shape": { "type": "circle" },
+ "opacity": { "value": 0.5 },
+ "size": { "value": 3 },
+ "move": { "enable": true, "speed": 2 }
+ }
+});
+
+</script>
+</body>
+</html>
